@@ -1,0 +1,10 @@
+## Interface: 100000
+## Title: Spec Keybinds
+## Notes: Adds support for specialization-specific keybinds
+## Author: SimplyAddons
+## Version: @project-version@
+## SavedVariablesPerCharacter: SpecKeybindsDB
+## X-Category: Action Bars
+## X-Curse-Project-ID: 694468
+
+SpecKeybinds.lua
