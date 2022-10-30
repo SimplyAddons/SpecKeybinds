@@ -1,0 +1,5 @@
+package-as: SpecKeybinds
+
+ignore:
+  - README.md
+  - LICENSE
