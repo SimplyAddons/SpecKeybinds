@@ -10,7 +10,7 @@ This addon is a continuation of Specialization Specific Keybinds, originally aut
 
 1. **Loading Keybinds:** Using the in-game talent window, activate the desired specialization.
 
-_A message similar to the one bellow will be printed whenever key bindings change_
+_A message similar to the one below will be printed whenever key bindings change_
 
 ![SpecKeybinds](https://i.imgur.com/Pi7GAol.jpg)
 
@@ -39,7 +39,7 @@ Q: Why are (some) of my action bar key bindings not properly getting tracked?
 _A: See the limitations. For mods like ElvUI use the default blizzard key binding menu (Esc -> Key Bindings) to set your bindings. Avoid using 'Quick Binding Mode' if you don't know what you are doing._
 
 Q: Can you add support for AddonName?  
-_A: SpecKeybinds use the default game functionality to set and retrieve key bindings. Addons that also make use of this mechanism will be supported by default. No special support will be added for any action bar addons, to avoid dependency creep, and to ensure Spec Keybinds remains compatible with future versions of WoW, as best it can._
+_A: SpecKeybinds uses the default game functionality to set and retrieve key bindings. Addons that also make use of this mechanism will be supported by default. No special support will be added for any action bar addons, to avoid dependency creep, and to ensure Spec Keybinds remains compatible with future versions of WoW, as best it can._
 
 ## Feedback
 To give feedback or report a bug, please use the [issues](https://github.com/SimplyAddons/SpecKeybinds/issues)
