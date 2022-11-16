@@ -4,8 +4,6 @@ ignore:
   - README.md
   - LICENSE
 
-wowi-create-changelog: no
-
 manual-changelog:
   filename: CHANGELOG.md
   markup-type: markdown
