@@ -1,4 +1,4 @@
-## Interface: 100000
+## Interface: 100002
 ## Title: Spec Keybinds
 ## Notes: Adds support for specialization-specific keybinds
 ## Author: SimplyAddons

@@ -1,3 +1,6 @@
+# 1.5
+- bump TOC to 10.0.2
+
 # 1.4
 - update TOC for wow 10.0.0
 - removed manual keybind command
