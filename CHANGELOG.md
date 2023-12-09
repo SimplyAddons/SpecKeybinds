@@ -1,3 +1,9 @@
+# 1.5.2
+- bump TOC to 10.2.0
+
+# 1.5.1
+- bump TOC to 10.1.0
+
 # 1.5
 - bump TOC to 10.0.2
 

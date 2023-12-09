@@ -1,4 +1,4 @@
-## Interface: 100100
+## Interface: 100200
 ## Title: |cFF1784d1Spec Keybinds|r
 ## Notes: Adds support for specialization-specific keybinds
 ## Author: SimplyAddons
