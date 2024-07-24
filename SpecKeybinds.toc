@@ -1,8 +1,9 @@
-## Interface: 100200
+## Interface: 110000
 ## Title: |cFF1784d1Spec Keybinds|r
 ## Notes: Adds support for specialization-specific keybinds
 ## Author: SimplyAddons
 ## Version: @project-version@
+## IconTexture: Interface\AddOns\SpecKeybinds\SpecKeybinds.blp
 ## SavedVariablesPerCharacter: SpecKeybindsDB
 ## X-Category: Action Bars
 ## X-Curse-Project-ID: 694468
