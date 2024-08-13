@@ -1,3 +1,6 @@
+# 1.5.4
+- bump TOC to 11.0.2
+
 # 1.5.3
 - bump TOC to 11.0.0
 - add icon texture
