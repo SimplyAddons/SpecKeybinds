@@ -1,6 +1,8 @@
 package-as: SpecKeybinds
 
 ignore:
+  - .vscode
+  - .gitignore
   - README.md
   - LICENSE
 
