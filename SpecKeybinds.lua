@@ -10,8 +10,17 @@ local CHARACTER_BINDINGS = 2
 -- > ADDON FUNCTIONS
 -- -----------------------------------------------------------------------------
 
-local function loadBindings(self, spec)
+-- GetSpecializationInfo() is not immediately available on entering an instance
+local function printActiveSpec(spec)
 	local _, name = GetSpecializationInfo(spec)
+	if not name then
+		C_Timer.After(0.5, function() printActiveSpec(spec) end)
+		return
+	end
+	print(string.format('|cffffff00Key Bindings set to Specialization: %s|r', name))
+end
+
+local function loadBindings(self, spec)
 	if (not self.db.binds[spec]) then
 		self.db.binds[spec] = self.db.binds[self.spec]
 	end
@@ -47,7 +56,7 @@ local function loadBindings(self, spec)
 	end
 	SaveBindings(CHARACTER_BINDINGS)
 	self:RegisterEvent('UPDATE_BINDINGS')
-	print(string.format('|cffffff00Key Bindings set to Specialization: %s|r', name))
+	printActiveSpec(spec)
 end
 
 local function saveBindings(self, spec)
@@ -92,7 +101,8 @@ function events:ACTIVE_TALENT_GROUP_CHANGED(...)
 end
 
 function events:UPDATE_BINDINGS(...)
-	saveBindings(self, GetSpecialization())
+	local spec = GetSpecialization()
+	saveBindings(self, spec)
 end
 
 -- ---------------------
