@@ -1,3 +1,6 @@
+# 1.5.6
+- bump TOC to 11.2.0
+
 # 1.5.5
 - fix lua error when the game client swaps to your chosen spec automatically on entering an instance
 
