@@ -1,6 +1,10 @@
-# 1.6.0
-- add support for midnight
-- updated deprecated GetSpecialization namespace
+# 2.0.0
+- ignore new housing binds (HOUSING_*)
+- prune any HOUSING_* binds already saved
+- fix keybinds drifting on reload when the spec wasn't detected in time
+- compare a command's two keys as a set so primary/secondary swaps don't ping-pong
+- debounce saves so ElvUI's binding spam doesn't fire a save per key
+- reliability fixes for saving/loading binds
 
 # 1.5.6
 - bump TOC to 11.2.0

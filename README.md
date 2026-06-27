@@ -2,8 +2,6 @@
 
 An addon for World of Warcraft that enables per-specialization key binding support. After being set, the current key binding layout will automatically change whenever the active specialization is changed. This includes situations when the active specialization is automatically changed by the game (i.e when entering arenas).
 
-This addon is a continuation of Specialization Specific Keybinds, originally authored by [Matthias Y](https://github.com/myzb/SpecSpecificKeybinds).
-
 ## How to Use
 
 1. **Setting Keybinds:** Using the in-game talent window, activate the specialization you want to set key bindings for. Set your binds using the key binding menu.
