@@ -3,7 +3,8 @@ local addon, events = CreateFrame('Frame', addonName), {}
 
 -- API Imports
 local SetBinding, GetBinding = SetBinding, GetBinding
-local GetSpecialization = GetSpecialization
+local GetSpecialization = C_SpecializationInfo.GetSpecialization
+local GetSpecializationInfo = C_SpecializationInfo.GetSpecializationInfo
 local CHARACTER_BINDINGS = 2
 
 -- -----------------------------------------------------------------------------
