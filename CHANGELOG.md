@@ -1,3 +1,7 @@
+# 1.6.0
+- add support for midnight
+- updated deprecated GetSpecialization namespace
+
 # 1.5.6
 - bump TOC to 11.2.0
 
